@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE WITH IQRA</title>
+</head>
+<!-- CSS external Work -->
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    html,body{
+        height: 100%;
+    }
+    body{
+        background: #215;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .circle-animattion{
+        width: 200px;
+        height: 200px;
+        background: #ffff;
+        border: 10px solid #ffff;
+        border-radius: 50%;
+        animation:grow 0.5s linear infinite;
+    }
+    @keyframes grow {
+    0%{
+        transform: scale(0);
+        background: #fff;
+    }
+    50%{
+        background: inherit;
+    }
+    100%{
+        transform: scale(1);
+        background: inherit;
+    }
+    }
+</style>
+<body>
+    <!-- Section of working -->
+    <div class="circle-animattion"></div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code With Iqra</title>
+</head>
+
+<style>
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 200px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    width: 45px;
+    height: 50px;
+    background-color: brown;
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 40px  50px rgb(0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+ul li:first-child{
+    border-radius: 5px 0 0 5px;
+}
+ul li:last-child{
+    border-radius: 0 5px 5px 0;
+}
+ul:hover li:nth-child(odd){
+    transform: skewY(15deg);
+}
+ul:hover li:nth-child(even){
+    transform: skewY(-15deg);
+}
+</style>
+
+<body>
+
+    <section>
+        <ul>
+            <li>C</li>
+            <li>O</li>
+            <li>D</li>
+            <li>E</li>
+            <li>W</li>
+            <li>I</li>
+            <li>T</li>
+            <li>H</li>
+            <li>I</li>
+            <li>Q</li>
+            <li>R</li>
+            <li>A</li>
+        </ul>
+    </section>
+</body>
+
+</html>
